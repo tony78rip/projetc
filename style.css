@@ -1,0 +1,6 @@
+.source{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 32vw;
+    margin-top: 2vw;
+}
