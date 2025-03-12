@@ -8,9 +8,12 @@
     <script defer src="index.js"></script>
     <title>Projet C</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="montserrat">
     <header class="w-full border-b border-zinc-300 bg-white fixed top-0 left-0 w-full z-50">
         <div class="container mx-auto flex items-center justify-between p-4">
             <div class="flex items-center space-x-2">
@@ -28,10 +31,10 @@
     </header>
       
     <!-- Présentation -->
-    <div class="pt-32 bg-[#EFF6F6] py-24 px-4">
+    <div class="pt-48 bg-[#EFF6F6] py-32 px-4">
         <div class="mx-auto flex items-center justify-between">
             <div class="w-2/3">
-                <h1 class="text-6xl font-bold text-black leading-tight">Lorem, ipsum dolor sit ssssssssssssssssss
+                <h1 class="text-6xl font-bold text-black leading-tight roboto">Lorem, ipsum dolor sit ssssssssssssssssss
                     sitamet consectetur </h1>
                 <p class="mt-4 text-xl text-zinc-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
                     officiis
@@ -50,7 +53,7 @@
     <!-- Qui sommes nous -->
     <div class="w-full flex flex-col justify-center items-center gap-y-4 text-center py-16">
         <p class="px-2 py-1 text-[#236138] rounded-lg bg-[#E6F4E7]">About us</p>
-        <h1 class="font-bold text-6xl">Qui Sommes Nous</h1>
+        <h1 class="font-bold text-6xl roboto">Qui Sommes Nous</h1>
         <p class="text-zinc-500 lg:w-[900px] pt-4 text-xl">Bonjour blablabla ciel je suis un paragraphe. Bonjour blablabla ciel je suis un paragraphe.Bonjour blablabla ciel je suis un paragraphe. Bonjour blablabla ciel je suis un paragraphe.</p>
         <div class="grid grid-cols-2 flex justify-center items-center text-start lg:w-[1300px] pt-8 text-xl lg:h-[500px]">
             <div class="w-[90%] flex flex-col justify-center items-center gap-y-8">
@@ -75,15 +78,15 @@
 
     <!-- Partie Article -->
     <div class="bg-[#EFF6F6] w-full flex flex-col justify-center items-center py-16 pb-24 gap-y-4 text-center">
-        <p class="px-2 py-1 text-[#236138] rounded-lg bg-[#E6F4E7]">Articles</p>
-        <h1 class="font-bold text-6xl">Nos Articles</h1>
+        <p class="px-2 py-1 text-[#236138] rounded-lg bg-[#D2F2D4]">Articles</p>
+        <h1 class="font-bold text-6xl roboto">Nos Articles</h1>
         <p class="text-zinc-500 lg:w-[900px] pt-4 text-xl">Bonjour blablabla ciel je suis un paragraphe. Bonjour blablabla ciel je suis un paragraphe.</p>
         <div class="w-[1200px] grid grid-cols-3 justify-center items-center gap-x-4 pt-8 text-start">
             <div class="rounded-xl shadow-sm flex flex-col p-4 bg-white max-w-96 gap-y-4">
                 <!-- This "p" is temporary -->
                 <p class="rounded-lg bg-[#236138] text-white w-12 h-12 flex items-center justify-center">A</p>
                 <!-- This "p" is temporary -->
-                <h3 class="text-2xl font-bold pt-4">Article 1</h3>
+                <h3 class="text-2xl font-bold pt-4 roboto">Article 1</h3>
                 <p class="text-xl text-zinc-500">Bonjour blablabla ciel je suis un paragraphe.</p>
                 <a href="#" class="text-[#2c7c57] hover:text-[#236138] text-xl">Learn more -></a>
             </div>
@@ -91,7 +94,7 @@
                 <!-- This "p" is temporary -->
                 <p class="rounded-lg bg-[#2c7c57] text-white w-12 h-12 flex items-center justify-center">A</p>
                 <!-- This "p" is temporary -->
-                <h3 class="text-2xl font-bold pt-4">Article 2</h3>
+                <h3 class="text-2xl font-bold pt-4 roboto">Article 2</h3>
                 <p class="text-xl text-zinc-500">Bonjour blablabla ciel je suis un paragraphe.</p>
                 <a href="#" class="text-[#2c7c57] hover:text-[#236138] text-xl">Learn more -></a>
             </div>
@@ -99,7 +102,7 @@
                 <!-- This "p" is temporary -->
                 <p class="rounded-lg bg-[#4c9589] text-white w-12 h-12 flex items-center justify-center">A</p>
                 <!-- This "p" is temporary -->
-                <h3 class="text-2xl font-bold pt-4">Article 3</h3>
+                <h3 class="text-2xl font-bold pt-4 roboto">Article 3</h3>
                 <p class="text-xl text-zinc-500">Bonjour blablabla ciel je suis un paragraphe.</p>
                 <a href="#" class="text-[#2c7c57] hover:text-[#236138] text-xl">Learn more -></a>
             </div>
@@ -115,22 +118,26 @@
     <div>
 
     </div>
-    <footer>
-        <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
-            <li><a href="mentions-legales.php" style="color: #000000; text-decoration: none;">Mentions légales</a></li>
-            <li><a href="politique-confidentialite.php" style="color: #000000; text-decoration: none;">Politique de confidentialité</a></li>
-            <li><a href="conditions-utilisation.php" style="color: #000000; text-decoration: none;">Conditions générales d'utilisation</a></li>
-            <li><a href="charte-legale.php" style="color: #000000; text-decoration: none;">Charte légale</a></li>
+
+    <footer class="py-6 border-t border-zinc-300 w-full flex justify-center flex-col items-center gap-y-3 text-lg">
+        <ul class="flex gap-x-4">
+            <li><a href="#">Mentions légales</a></li>
+            <li></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li></li>
+            <li><a href="#">Conditions générales d'utilisation</a></li>
+            <li></li>
+            <li><a href="#">Charte légale</a></li>
         </ul>
-        <div class="source">
-            <a href="https://www.info.gouv.fr/actualite/handicap-pour-une-societe-inclusive?"><button>gouv.fr</button></a>
-            <a href="https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-voirie-espaces-publics"><button>ecogouv.fr</button></a>
-            <a href="https://www.handicap-parlons-en.com/quelles-aides-financieres-pour-une-maison-habilitee-pmr.html"><button>handicap-parlons-en.com</button></a>
-            <a href="https://www.ville-plaisir.fr/services/solidarites-seniors/handicap/aides-a-la-mobilite"><button>ville-plaisir.fr</button></a>
-            <a href="https://handicap.gouv.fr/la-delegation-interministerielle-laccessibilite-dia"><button>hadicap.gouv.fr</button></a>
+        <h3 class="roboto pt-6">Sources:</h3>
+        <div class="flex gap-x-6">
+            <a href="https://www.info.gouv.fr/actualite/handicap-pour-une-societe-inclusive?" class="text-[#2c7c57] hover:text-[#236138] underline">gouv.fr</a>
+            <a href="https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-voirie-espaces-publics" class="text-[#2c7c57] hover:text-[#236138] underline">ecogouv.fr</a>
+            <a href="https://www.handicap-parlons-en.com/quelles-aides-financieres-pour-une-maison-habilitee-pmr.html" class="text-[#2c7c57] hover:text-[#236138] underline">handicap-parlons-en.com</a>
+            <a href="https://www.ville-plaisir.fr/services/solidarites-seniors/handicap/aides-a-la-mobilite" class="text-[#2c7c57] hover:text-[#236138] underline">ville-plaisir.fr</a>
+            <a href="https://handicap.gouv.fr/la-delegation-interministerielle-laccessibilite-dia" class="text-[#2c7c57] hover:text-[#236138] underline">hadicap.gouv.fr</a>
         </div>
     </footer>
 </body>
 
-*
 </html>

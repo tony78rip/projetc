@@ -1,6 +1,15 @@
-.source{
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 32vw;
-    margin-top: 2vw;
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
