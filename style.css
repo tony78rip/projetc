@@ -13,3 +13,21 @@
     font-variation-settings:
       "wdth" 100;
 }
+
+.translate-on-y {
+    animation: translate-y linear forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes translate-y {
+    0% {
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    25% {
+        pointer-events: none;
+    }
+    100% {
+        transform: translateY(200%);
+    }
+}
